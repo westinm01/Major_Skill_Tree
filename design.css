@@ -1,0 +1,314 @@
+*{
+	
+
+	padding:0;
+
+}
+body{
+
+	background:linear-gradient(180deg,lightyellow,lightblue);
+	/*background:black;*/
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position: center;
+	/*color:white;*/
+	text-align:center;
+	/*background-image:url(images/BG_UCR.jpg);*/
+	/*background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;*/
+	height:98vh;
+	width:100%;
+	/*width:1800px;
+	background-width:1800px;*/
+
+}
+.corePrereqs ul li,.arcPrereqs ul li, .eePrereqs ul li, .math ul li,.physics ul li,.breadthCompleted ul li{
+	margin:auto;
+
+	background:linear-gradient(0deg,#05D86F,#93F8FF);
+	/*background:rgb(0,200,100);*/
+	display:inline-block;	/*Makes the background only cover the characters rather than entire line.*/
+	border-radius:7px;
+	box-sizing:border-box;
+	/*padding:5px;*/
+	font-family:arial;
+}
+
+.coreEnds ul li,.arcEnds ul li,.eeEnds ul li, .breadthLeft ul li{
+	margin: auto;
+	background:linear-gradient(0deg,#A8A8A8,#FFFFFF);
+	display:inline-block;
+	border-radius:7px;
+	box-sizing:border-box;
+	/*padding:5px;*/
+	font-family:arial;
+}
+
+.check{
+	width:20px;
+
+}
+.Legend{
+	position:absolute;
+	top:20px;
+	right:10px;
+	/*display:inline-block;*/
+	transform:scale(.8);
+	box-sizing: border-box;
+	margin:auto;
+	list-style-type: none;
+	z-index: -90;
+	font-family:arial;
+	visibility: hidden;
+
+
+}
+
+.Legend ul{
+	text-align:left;
+	/*visibility:visible;*/
+}
+
+#sampleGreen{
+	background:linear-gradient(0deg,#05D86F,#93F8FF);
+}
+#sampleBlue{
+	box-shadow:0 0 15px 2px rgba(0,0,200,.8);
+	/*font-weight:bold;*/
+}
+#check3{
+	width:15px;
+	visibility:hidden;
+}
+h2{
+	font-family:Times, Times New Roman, serif;
+
+}
+button{
+	margin: auto;
+	background:linear-gradient(0deg,#A8A8A8,#FFFFFF);
+	/*background:green;*/
+	display:inline-block;
+	border-radius:7px;
+	box-sizing:border-box;
+	padding:5px;
+	font-family:arial;
+	border:none;
+	font-size:16px;
+	outline:none;
+}
+h6{
+	position:absolute;
+	bottom:0;
+	
+	
+}
+
+#legendToggle{
+	padding:4px 4px 4px 4px;
+	position:fixed;
+	bottom:80px;
+	margin:auto;
+	right:10px;
+	background:white;
+}
+	#legendToggle:hover{
+		box-shadow:0 0 3px 3px rgb(0,100,250,.5);
+}
+
+
+#classDescriptionToggle{
+
+	padding:4px 4px 4px 4px;
+	position: fixed;
+	bottom:46px;
+	margin:auto;
+	right: 10px;
+	background:white;
+}
+
+#classDescriptionToggle:hover{
+	box-shadow: 0 0 3px 3px rgb(0,100,250,.5);
+
+}
+
+#check4{
+	width:15px;
+	visibility:hidden;
+}
+
+#upperDiv{
+	padding:4px 4px 4px 4px;
+
+	position:fixed;
+	bottom:10px;
+	margin:auto;
+	right:10px;
+	background:white;
+
+
+}
+#upperDiv:hover{
+	box-shadow: 0 0 3px 3px rgb(0,100,250,.5);
+	/*text-decoration:underline;*/
+}
+#check2{
+	width:15px;
+	visibility:hidden;
+}
+
+h4{
+	font-family:sans-serif;
+}
+h3{
+	font-family: sans-serif;
+}
+
+.Descriptions{
+	display:none;
+	position: absolute;
+	left:20px;
+	top:22%;
+	width: 480px;
+	z-index:-900;
+	visibility: hidden;
+	
+	
+}
+
+#a:hover .DescCS010A{
+	display:block;
+}
+#b:hover .DescCS010B{
+	display:block;
+}
+#c:hover .DescCS010C{
+	display:block;
+}
+#d:hover .DescCS011{
+	display:block;
+}
+#e:hover .DescCS100{
+	display:block;
+}
+#f:hover .DescCS111{
+	display:block;
+}
+#g:hover .DescENGR001G{
+	display:block;
+}
+#h:hover .DescENGR101G{
+	display:block;
+}
+#i:hover .DescCS141{
+	display:block;
+}
+#j:hover .DescCS150{
+	display:block;
+}
+#k:hover .DescCS152{
+	display:block;
+}
+#l:hover .DescCS179E{
+	display:block;
+}
+#m:hover .DescCS160{
+	display:block;
+}
+#n:hover .DescCS170{
+	display:block;
+}
+#p:hover .DescCS061{
+	display:block;
+}
+#o:hover .DescCS175{
+	display:block;
+}
+#q:hover .DescCS120A{
+	display:block;
+}
+#r:hover .DescCS120B{
+	display:block;
+}
+#s:hover .DescCS122A{
+	display:block;
+}
+#t:hover .DescCS153{
+	display:block;
+}
+#u:hover .DescCS161{
+	display:block;
+}
+#v:hover .DescCS168{
+	display:block;
+}
+#w:hover .DescEE001A{
+	display:block;
+}
+#x:hover .DescEE001B{
+	display:block;
+}
+#y:hover .DescEE020{
+	display:block;
+}
+#z:hover .DescEE100A{
+	display:block;
+}
+#aa:hover .DescEE111{
+	display:block;
+}
+#ab:hover .DescEE114{
+	display:block;
+}
+#ac:hover .DescMath009A{
+	display:block;
+}
+#ad:hover .DescMath009B{
+	display:block;
+}
+#ae:hover .DescMath009C{
+	display:block;
+}
+#af:hover .DescMath010A{
+	display:block;
+}
+#ag:hover .DescMath046{
+	display:block;
+}
+#ah:hover .DescPHYS040A{
+	display:block;
+}
+#ai:hover .DescPHYS040B{
+	display:block;
+}
+#aj:hover .DescPHYS040C{
+	display:block;
+}
+#ak:hover .DescENGL001A{
+	display:block;
+}
+#al:hover .DescENGL001B{
+	display:block;
+}
+#aq:hover .DescENGR180W{
+	display:block;
+}
+.MessageCenter{
+	visibility:hidden;
+	background:white;
+	outline:none;
+	position:absolute;
+	left:10px;
+	top:19%;
+	margin:auto;
+	border-radius: 15px;
+	z-index:-950;
+
+
+}
+
+#CheckPhysics{
+	visibility: hidden;
+	width:20px;
+}
